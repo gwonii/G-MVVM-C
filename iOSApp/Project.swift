@@ -143,6 +143,7 @@ func makeFrameworkTargets(
 		deploymentTarget: .iOS(targetVersion: "15.0", devices: [.iphone, .ipad]),
 		infoPlist: .default,
 		sources: ["Targets/\(name)/Sources/**"],
+		resources: name == "CommonUI" ? ["Targets/\(name)/Resources/**"] : [],
 		dependencies: dependencies,
 		settings: .settings(
 			base: SettingsDictionary(),

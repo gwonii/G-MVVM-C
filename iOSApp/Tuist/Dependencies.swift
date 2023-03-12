@@ -11,7 +11,8 @@ let dependencies = Dependencies(
 			.remote(url: "https://github.com/Alamofire/Alamofire.git", requirement: .upToNextMinor(from: "5.6.0")),
 			.remote(url: "https://github.com/CombineCommunity/CombineCocoa.git", requirement: .upToNextMinor(from: "0.4.0")),
 			.remote(url: "https://github.com/CombineCommunity/CombineDataSources.git", requirement: .upToNextMinor(from: "0.2.0")),
-			.remote(url: "https://github.com/CombineCommunity/CombineExt.git", requirement: .upToNextMinor(from: "1.8.0"))
+			.remote(url: "https://github.com/CombineCommunity/CombineExt.git", requirement: .upToNextMinor(from: "1.8.0")),
+			.remote(url: "https://github.com/airbnb/lottie-ios.git", requirement: .upToNextMinor(from: "4.1.0"))
         ]
     ),
     platforms: [.iOS]
